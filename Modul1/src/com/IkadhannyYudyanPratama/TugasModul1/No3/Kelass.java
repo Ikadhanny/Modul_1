@@ -1,6 +1,7 @@
 package com.IkadhannyYudyanPratama.TugasModul1.No3;
 
 public class Kelass {
+    //class
     private static String nama = "Ikadhanny";
     private static String nateng = "Yudyan";
     private static String nablkng = "Pratama";
@@ -15,6 +16,7 @@ public class Kelass {
         return minute;
     }
 
+    //Output
     public static void main(String[] args) {
         System.out.println("\t\t DAFTAR NAMA KARYAWAN");
         System.out.println("Nama\t\t\t: " + nama + " " + nateng + " " + nablkng);
