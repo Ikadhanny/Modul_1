@@ -7,6 +7,7 @@ public class Construktor {
     private String alamat;
     private String prodi;
 
+    //constructor
     public Construktor(String nama, String umur, String tgl, String bln, String thn, String alamat, String prodi) {
         this.nama = nama;
         this.umur = umur;
@@ -21,6 +22,7 @@ public class Construktor {
 
     }
 
+    //getter and setter
     public String getNama() {
         return nama;
     }
