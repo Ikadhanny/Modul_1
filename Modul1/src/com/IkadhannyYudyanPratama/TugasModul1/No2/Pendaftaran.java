@@ -10,9 +10,11 @@ public class Pendaftaran {
         String alamat;
         String prodi;
 
+        //memanggil data constructor
         Construktor daftar = new Construktor();
         Scanner scanner = new Scanner(System.in);
 
+        //output + inputan 
         System.out.println("Masukan Data Pendaftaran Anda : ");
         System.out.print("Masukan Nama\t\t : ");
         nama = scanner.nextLine();
@@ -39,6 +41,7 @@ public class Pendaftaran {
         System.out.println();
         System.out.println();
 
+        //output akhir
         System.out.println("\tDATA PENDAFTAR");
         System.out.println("Nama\t\t : " + daftar.getNama());
         System.out.println("Umur\t\t : " + daftar.getUmur());
