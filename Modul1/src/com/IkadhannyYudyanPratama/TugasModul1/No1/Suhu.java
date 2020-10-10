@@ -11,6 +11,7 @@ public class Suhu {
         kel = 5;
         rea = 4;
 
+        //Output
         System.out.println("Suhu sebelum passed by value\t : ");
         System.out.println("Celsius to Farenheit\t : " + cel);
         System.out.println("Farenheit to Kelvin\t : " + far);
